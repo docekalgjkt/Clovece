@@ -10,5 +10,6 @@ public class Figurka {
 
     public BarvaFigurky getBarvaFigurky(){
         return barvaFigurky;
+
     }
 }
