@@ -1,5 +1,7 @@
 package cz.gjkt.clovece2;
 
+import cz.gjkt.clovece2.model.BarvaFigurky;
+import cz.gjkt.clovece2.model.StartovniDomecek;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

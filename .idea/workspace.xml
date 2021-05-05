@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6835b2-54f6-4e7b-b731-99b068f04b00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/Figurka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/Figurka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/BarvaFigurky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/BarvaFigurky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/CilovyDomecek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/CilovyDomecek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/Figurka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/Figurka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/Hrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/Hrac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/HraciKostka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/HraciKostka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/HraciPlocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/HraciPlocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/MocFigurekException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/MocFigurekException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/StartovniDomecek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/StartovniDomecek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/CilovyDomecekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/CilovyDomecekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/HraciKostkaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/HraciKostkaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/HraciPlochaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/HraciPlochaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/StartovniDomecekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/StartovniDomecekTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -71,7 +86,7 @@
       <module name="Clovece2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.*" />
+          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,7 +102,7 @@
       <module name="Clovece2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.*" />
+          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +118,7 @@
       <module name="Clovece2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.*" />
+          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,7 +134,7 @@
       <module name="Clovece2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.*" />
+          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,7 +151,7 @@
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.*" />
+          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,7 +168,7 @@
       <module name="Clovece2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.*" />
+          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,7 +184,7 @@
       <module name="Clovece2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.*" />
+          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619612605153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Přidání konfigurce projektu">
+      <created>1620133183304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620133183304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +239,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -265,10 +289,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1096" y="241" key="#xdebugger.evaluate/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1618399427044" />
-    <state x="-1293" y="115" key="CommitChangelistDialog2" timestamp="1619612603558">
+    <state x="-1293" y="115" key="CommitChangelistDialog2" timestamp="1620133180611">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1293" y="115" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1619612603558" />
+    <state x="-1293" y="115" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620133180611" />
     <state x="-1211" y="271" key="FileChooserDialogImpl" timestamp="1616604217368">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -322,10 +346,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1457" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1619611705718" />
-    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1620133158452">
+    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1620210722059">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620133158452" />
+    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620210722058" />
     <state x="-1256" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616587920803">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

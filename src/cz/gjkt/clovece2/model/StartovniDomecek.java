@@ -1,8 +1,4 @@
-package cz.gjkt.clovece2;
-
-import com.sun.jdi.event.MonitorContendedEnteredEvent;
-
-import java.util.LinkedList;
+package cz.gjkt.clovece2.model;
 
 public class StartovniDomecek {
 

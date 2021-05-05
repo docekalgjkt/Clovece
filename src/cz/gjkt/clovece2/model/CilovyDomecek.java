@@ -1,4 +1,4 @@
-package cz.gjkt.clovece2;
+package cz.gjkt.clovece2.model;
 
 import java.security.InvalidParameterException;
 import java.util.ArrayList;

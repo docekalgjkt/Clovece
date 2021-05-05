@@ -1,4 +1,4 @@
-package cz.gjkt.clovece2;
+package cz.gjkt.clovece2.app;
 
 public class Main {
 

@@ -1,5 +1,6 @@
 package cz.gjkt.clovece2;
 
+import cz.gjkt.clovece2.model.HraciKostka;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,6 +1,4 @@
-package cz.gjkt.clovece2;
-
-import org.junit.jupiter.api.Test;
+package cz.gjkt.clovece2.model;
 
 import java.util.ArrayList;
 import java.util.HashMap;
