@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b6835b2-54f6-4e7b-b731-99b068f04b00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/BarvaFigurky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/BarvaFigurky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/CilovyDomecek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/CilovyDomecek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/Figurka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/Figurka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/Hrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/Hrac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/HraciKostka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/HraciKostka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/HraciPlocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/HraciPlocha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/MocFigurekException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/MocFigurekException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/StartovniDomecek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/StartovniDomecek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/CilovyDomecekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/CilovyDomecekTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/HraciKostkaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/HraciKostkaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/HraciPlochaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/HraciPlochaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/StartovniDomecekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/StartovniDomecekTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620133183304</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Přidání konfigurce projektu">
+      <created>1620213670509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620213670509</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +269,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1155" y="213" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1619006819371" />
+    <state x="-1233" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1620739847032">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1233" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620739847032" />
     <state x="-1130" y="236" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1616505801769">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -289,14 +285,14 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1096" y="241" key="#xdebugger.evaluate/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1618399427044" />
-    <state x="-1293" y="115" key="CommitChangelistDialog2" timestamp="1620133180611">
+    <state x="-1293" y="115" key="CommitChangelistDialog2" timestamp="1620213668128">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1293" y="115" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620133180611" />
-    <state x="-1211" y="271" key="FileChooserDialogImpl" timestamp="1616604217368">
+    <state x="-1293" y="115" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620213668128" />
+    <state x="-1211" y="271" key="FileChooserDialogImpl" timestamp="1620740319295">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1211" y="271" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1616604217368" />
+    <state x="-1211" y="271" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620740319295" />
     <state x="620" y="263" key="FileChooserDialogImpl/0.0.1680.1010/-1366.46.1366.728@0.0.1680.1010" timestamp="1614858471327" />
     <state x="-1134" y="437" key="Github.CreateGistDialog" timestamp="1619610355309">
       <screen x="-1920" y="0" width="1920" height="1040" />
@@ -342,14 +338,14 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="390" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1618402691929" />
-    <state x="-1457" y="165" key="SettingsEditor" timestamp="1619611705718">
+    <state x="-1457" y="165" key="SettingsEditor" timestamp="1620740362744">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1457" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1619611705718" />
-    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1620210722059">
+    <state x="-1457" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620740362744" />
+    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1620735496090">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620210722058" />
+    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1620735496090" />
     <state x="-1256" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616587920803">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
