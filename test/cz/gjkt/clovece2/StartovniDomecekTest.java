@@ -1,6 +1,7 @@
 package cz.gjkt.clovece2;
 
 import cz.gjkt.clovece2.model.BarvaFigurky;
+import cz.gjkt.clovece2.model.MocFigurekException;
 import cz.gjkt.clovece2.model.StartovniDomecek;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -21,12 +22,6 @@ class StartovniDomecekTest {
 
     @Test
     void nasadFigurku() {
-    }
-
-    @Test
-    void vratFigurku() {
-        StartovniDomecek startovniDomecek = new StartovniDomecek(new BarvaFigurky(1, 0, 10), 3);
-        startovniDomecek.vratFigurku();
     }
 
     @Test

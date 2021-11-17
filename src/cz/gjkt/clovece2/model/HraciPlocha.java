@@ -50,6 +50,8 @@ public class HraciPlocha {
     public List<BarvaFigurky> getBarvyFigurek(){
         return barvyFigurek;
     }
+    public StartovniDomecek getStartovniDomecek(BarvaFigurky barvaFigurky){return startovniDomecekMap.get(barvaFigurky);}
+    public CilovyDomecek getCilovyDomecek(BarvaFigurky barvaFigurky){return cilovyDomecekMap.get(barvaFigurky);}
 
     //Zjištění, se kterými figurkami může hráč hrát
     public List<Figurka> vratMozneFigurky(BarvaFigurky barvaFigurky, int hodnotaHodu){
@@ -63,19 +65,31 @@ public class HraciPlocha {
         return figurky;
     }
 
+    public int getIndexFigurky(Figurka figurka){
+        return hraciPole.indexOf(figurka);
+    }
+
     //Nasazení figurky na správné místo
-    public void nasad(BarvaFigurky barvaFigurky){
+    public Figurka nasad(BarvaFigurky barvaFigurky){
         StartovniDomecek startovniDomecek = startovniDomecekMap.get(barvaFigurky);
-        Figurka figurka = startovniDomecek.getFigurka();
+        Figurka figurka = startovniDomecek.removeFigurka();
+        if (figurka!=null) nasad(figurka);
+        return figurka;
+    }
+
+    public void nasadFigurku(Figurka figurka){
+        StartovniDomecek startovniDomecek = startovniDomecekMap.get(figurka.getBarvaFigurky());
+        startovniDomecek.removeFigurka(figurka);
         if (figurka!=null) nasad(figurka);
     }
+
     private void nasad(Figurka figurka){
         int start = figurka.getBarvaFigurky().getStart();
         if (muzuPohybNa(figurka, start)){
             Figurka ciziFigurka = hraciPole.get(start);
             if (ciziFigurka != null){
                 try {
-                    startovniDomecekMap.get(ciziFigurka.getBarvaFigurky()).vratFigurku();
+                    startovniDomecekMap.get(ciziFigurka.getBarvaFigurky()).vratFigurku(ciziFigurka);
                 } catch (MocFigurekException e) {
                     e.printStackTrace();
                 }
@@ -167,4 +181,10 @@ public class HraciPlocha {
         return novePole;
     }
 
+    public BarvaFigurky getDalsiHrac(BarvaFigurky aktualniHrac) {
+        if (barvyFigurek.indexOf(aktualniHrac) == barvyFigurek.size()-1) {
+            return barvyFigurek.get(0);
+        }
+        return barvyFigurek.get(barvyFigurek.indexOf(aktualniHrac)+1);
+    }
 }

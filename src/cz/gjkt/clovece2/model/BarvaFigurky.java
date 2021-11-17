@@ -6,7 +6,7 @@ public class BarvaFigurky {
     private int start;
     private int cil;
 
-    BarvaFigurky(int poradi, int start, int pocetPoli){
+    public BarvaFigurky(int poradi, int start, int pocetPoli){
         this.poradi = poradi;
         this.start = start;
         int cil = start - 1;

@@ -4,7 +4,7 @@ public class Figurka {
 
     private BarvaFigurky barvaFigurky;
 
-    Figurka(BarvaFigurky barvaFigurky){
+    public Figurka(BarvaFigurky barvaFigurky){
         this.barvaFigurky = barvaFigurky;
     }
 
