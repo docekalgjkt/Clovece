@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46a74270-ef94-48e4-828b-4967bd802995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/app/MainFx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="46a74270-ef94-48e4-828b-4967bd802995" name="Default Changelist" comment="New version, GUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/FigurkaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/FigurkaView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/MainFxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/MainFxController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,37 @@
       <option name="presentableId" value="Default" />
       <updated>1622632465762</updated>
     </task>
+    <task id="LOCAL-00001" summary="New version, GUI">
+      <created>1637832165420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637832165420</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New version, GUI">
+      <created>1637832308526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637832308527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New version, GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="New version, GUI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1637832086255">
@@ -84,25 +112,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637229283708" />
+    <state x="627" y="118" key="CommitChangelistDialog2" timestamp="1637832307050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="118" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832307050" />
     <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1637229363131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637229363131" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1637832114855">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1637833299475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832114855" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1637832114855">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637833299475" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1637833299475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832114855" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1637832114855">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637833299475" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1637833299475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832114855" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1637832114855">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637833299475" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1637833299475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832114855" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637833299475" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1637832402373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832402373" />
   </component>
 </project>

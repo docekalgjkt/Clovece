@@ -1,11 +1,13 @@
 package cz.gjkt.clovece2.view;
 
 import cz.gjkt.clovece2.model.*;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 
@@ -38,7 +40,7 @@ public class MainFxController implements Initializable {
     private final int[][] SOURADNICE_C_DOMECKU = {{30,180},{180,30},{330,180},{180,330}};
     private final int[][] SMERY_C_DOMECKU = {{1,0},{0,1},{-1,0},{0,-1}};
 
-    private static FigurkaView vybranaFigurka;
+    private FigurkaView vybranaFigurka;
 
     @FXML
     Canvas platno;
@@ -57,11 +59,11 @@ public class MainFxController implements Initializable {
     private int hod;
     private BarvaFigurky aktualniHrac;
 
-    public static void setVybranaFigurka(FigurkaView figurka){
+    public void setVybranaFigurka(FigurkaView figurka){
         vybranaFigurka = figurka;
     }
 
-    public static FigurkaView getVybranaFigurka(){return vybranaFigurka;}
+    public FigurkaView getVybranaFigurka(){return vybranaFigurka;}
 
     public void kresli(){
         GraphicsContext gc = platno.getGraphicsContext2D();
@@ -101,6 +103,21 @@ public class MainFxController implements Initializable {
             dw.kresli(platno.getGraphicsContext2D());
             for (FigurkaView f : dw.getFigurky()){
                 plocha.getChildren().add(f.getFigurkaView());
+                f.getFigurkaView().setOnMouseClicked(new EventHandler<MouseEvent>() {
+                    @Override
+                    public void handle(MouseEvent mouseEvent) {
+                        if (vybranaFigurka == f){
+                            f.setVybrana(false);
+                        }
+                        else {
+                            if (f.getFigurka().getBarvaFigurky() == aktualniHrac){
+                                if (vybranaFigurka != null) vybranaFigurka.setVybrana(false);
+                                vybranaFigurka = f;
+                                f.setVybrana(true);
+                            }
+                        }
+                    }
+                });
             }
         }
 
@@ -138,6 +155,7 @@ public class MainFxController implements Initializable {
             }
         }
         aktualniHrac = hraciPlocha.getDalsiHrac(aktualniHrac);
+        hod = 0;
     }
 
     public void hodKostkou(){

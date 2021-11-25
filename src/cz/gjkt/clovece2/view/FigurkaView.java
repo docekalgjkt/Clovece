@@ -26,7 +26,6 @@ public class FigurkaView {
         this.y = y;
         figurkaView = new Circle(x,y,VELIKOST_FIGURKY,barva);
         tatoFigurka = this;
-        setHandler();
     }
 
     public Circle getFigurkaView(){return figurkaView;}
@@ -43,15 +42,4 @@ public class FigurkaView {
         }
     }
 
-    private void setHandler(){
-        figurkaView.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent mouseEvent) {
-                FigurkaView f = MainFxController.getVybranaFigurka();
-                if (f!=null) MainFxController.getVybranaFigurka().setVybrana(false);
-                setVybrana(true);
-                MainFxController.setVybranaFigurka(tatoFigurka);
-            }
-        });
-    }
 }
