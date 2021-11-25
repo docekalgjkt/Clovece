@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b6835b2-54f6-4e7b-b731-99b068f04b00" name="Default Changelist" comment="Přidání konfigurce projektu">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/CilovyDomecekView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/FigurkaView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/MainFx.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/MainFxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/view/StartovniDomecekView.java" afterDir="false" />
+    <list default="true" id="46a74270-ef94-48e4-828b-4967bd802995" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/app/MainFx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clovece2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Clovece2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/BarvaFigurky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/BarvaFigurky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/Figurka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/Figurka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/HraciPlocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/HraciPlocha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/StartovniDomecek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cz/gjkt/clovece2/model/StartovniDomecek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cz/gjkt/clovece2/StartovniDomecekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cz/gjkt/clovece2/StartovniDomecekTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,303 +16,93 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-        <option value="JavaFXApplication" />
-        <option value="FxmlFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\docekal\IdeaProjects\Clovece2" />
-        <option value="C:\Users\docekal\IdeaProjects\Clovece2\.idea" />
-      </set>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1obsIrF6hXQIJKRq2ZyRevEGl59" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1tOFwLRjIYgmB7OgqSvi1CCpvRV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$JAVAFX$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="cz.gjkt.clovece2" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cz.gjkt.clovece2" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.JavaFx">
-    <configuration name="JavaFx" type="Application" factoryName="Application">
+  <component name="RunManager">
+    <configuration name="MainFx" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="cz.gjkt.clovece2.app.MainFx" />
       <module name="Clovece2" />
-      <option name="VM_PARAMETERS" value="--module-path ${JAVAFX} --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path ${JAVAFX_PATH} --add-modules javafx.controls,javafx.fxml " />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CilovyDomecekTest.jePlno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Clovece2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.gjkt.clovece2" />
-      <option name="MAIN_CLASS_NAME" value="cz.gjkt.clovece2.CilovyDomecekTest" />
-      <option name="METHOD_NAME" value="jePlno" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CilovyDomecekTest.jeVolno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Clovece2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.gjkt.clovece2" />
-      <option name="MAIN_CLASS_NAME" value="cz.gjkt.clovece2.CilovyDomecekTest" />
-      <option name="METHOD_NAME" value="jeVolno" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CilovyDomecekTest.testToString" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="Clovece2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.gjkt.clovece2" />
-      <option name="MAIN_CLASS_NAME" value="cz.gjkt.clovece2.CilovyDomecekTest" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CilovyDomecekTest.vlozFigurku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Clovece2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.gjkt.clovece2" />
-      <option name="MAIN_CLASS_NAME" value="cz.gjkt.clovece2.CilovyDomecekTest" />
-      <option name="METHOD_NAME" value="vlozFigurku" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HraciPlochaTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="Clovece2" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.gjkt.clovece2" />
-      <option name="MAIN_CLASS_NAME" value="cz.gjkt.clovece2.HraciPlochaTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HraciPlochaTest.nasad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Clovece2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.gjkt.clovece2" />
-      <option name="MAIN_CLASS_NAME" value="cz.gjkt.clovece2.HraciPlochaTest" />
-      <option name="METHOD_NAME" value="nasad" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StartovniDomecekTest.vratFigurku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Clovece2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cz.gjkt.clovece2.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cz.gjkt.clovece2" />
-      <option name="MAIN_CLASS_NAME" value="cz.gjkt.clovece2.StartovniDomecekTest" />
-      <option name="METHOD_NAME" value="vratFigurku" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.JavaFx" />
-      <item itemvalue="JUnit.CilovyDomecekTest.testToString" />
-      <item itemvalue="JUnit.HraciPlochaTest" />
-      <item itemvalue="JUnit.CilovyDomecekTest.jePlno" />
-      <item itemvalue="JUnit.CilovyDomecekTest.jeVolno" />
-      <item itemvalue="JUnit.CilovyDomecekTest.vlozFigurku" />
-      <item itemvalue="JUnit.HraciPlochaTest.nasad" />
-      <item itemvalue="JUnit.StartovniDomecekTest.vratFigurku" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.HraciPlochaTest.nasad" />
-        <item itemvalue="JUnit.StartovniDomecekTest.vratFigurku" />
-        <item itemvalue="JUnit.CilovyDomecekTest.jeVolno" />
-        <item itemvalue="JUnit.CilovyDomecekTest.jePlno" />
-        <item itemvalue="JUnit.CilovyDomecekTest.vlozFigurku" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2b6835b2-54f6-4e7b-b731-99b068f04b00" name="Default Changelist" comment="" />
-      <created>1613566548060</created>
+      <changelist id="46a74270-ef94-48e4-828b-4967bd802995" name="Default Changelist" comment="" />
+      <created>1622632465762</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613566548060</updated>
+      <updated>1622632465762</updated>
     </task>
-    <task id="LOCAL-00001" summary="Přidání konfigurce projektu">
-      <created>1619612605153</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619612605153</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Přidání konfigurce projektu">
-      <created>1620133183304</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1620133183304</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Přidání konfigurce projektu">
-      <created>1620213670509</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1620213670509</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Přidání konfigurce projektu">
-      <created>1620740847491</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1620740847491</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Přidání konfigurce projektu">
-      <created>1620741406092</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1620741406092</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Přidání konfigurce projektu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Přidání konfigurce projektu" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="-1155" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1637155611552">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="552" y="181" key="#Project_Structure" timestamp="1637832086255">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1155" y="229" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1637155611552" />
-    <state width="1877" height="322" key="GridCell.Tab.0.bottom" timestamp="1637181923334">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="552" y="181" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832086255" />
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637831954016">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="322" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1637181923334" />
-    <state width="1877" height="322" key="GridCell.Tab.0.center" timestamp="1637181923333">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637831954016" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1637229283708">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="322" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1637181923333" />
-    <state width="1877" height="322" key="GridCell.Tab.0.left" timestamp="1637181923333">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637229283708" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1637229363131">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="322" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1637181923333" />
-    <state width="1877" height="322" key="GridCell.Tab.0.right" timestamp="1637181923333">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="740" y="277" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637229363131" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1637832114855">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="322" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1637181923333" />
-    <state x="-1457" y="165" key="SettingsEditor" timestamp="1637172584774">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832114855" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1637832114855">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1457" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1637172584774" />
-    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1637155376127">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832114855" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1637832114855">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1637155376127" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1637175179535">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832114855" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1637832114855">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1366.728@-1920.0.1920.1040" timestamp="1637175179535" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1637832114855" />
   </component>
 </project>
